@@ -67,7 +67,7 @@ public class VerificationService(ILogger<VerificationService> logger, IServicePr
                             <body>
                                 <p>We received a request to sign in to your account using email {verificationRequest.Email} PLease verify your account using the verification code</p>
                                 <br><br>
-                                <h3>Verification code: {code}</h3>
+                                <h2>Verification code: {code}</h2>
                             </body>
                         </html>
                     ",
